@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/sockjs-client/1.3.0/sockjs.min.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    var url = "localhost:8080"
+    var websocket;
+    var heartBeat;
+        websocket = new SockJS("http://" + url + "/test");
+    websocket.onopen = onOpen;
+    websocket.onmessage = onMessage;
+    websocket.onerror = onError;
+    websocket.onclose = onClose;
+    function onOpen(){
+        if(websocket!=null){
+            heartBeat = setInterval(function(){
+                websocket.send("1");
+            }, 1000);
+            websocket.send(1);
+        }else{
+            console.log("连接不可用");
+        }
+
+    }
+    function onMessage(event){
+        console.log(event.data);
+    }
+    function onError(){
+
+    }
+    function onClose(event){
+        clearInterval(heartBeat);
+    }
+</script>
+</html>

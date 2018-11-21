@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Maper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.websocket.dao.TestDao">
+    <select id="queryTest" resultType="com.example.websocket.entity.Test">
+        select * from test2
+    </select>
+    <insert id="insertTest" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="Test">
+        insert into test2(t1id) values(#{tid})
+    </insert>
+</mapper>
