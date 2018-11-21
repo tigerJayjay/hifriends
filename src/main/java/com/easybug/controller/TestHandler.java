@@ -1,6 +1,5 @@
-package com.example.websocket.controller;
+package com.easybug.controller;
 
-import com.example.websocket.config.WebSocketConfig;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;

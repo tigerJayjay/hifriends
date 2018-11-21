@@ -1,4 +1,4 @@
-package com.example.websocket.config;
+package com.easybug.config;
 
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;

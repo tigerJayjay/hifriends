@@ -1,7 +1,7 @@
-package com.example.websocket.config;
+package com.easybug.config;
 
 
-import com.example.websocket.controller.TestHandler;
+import com.easybug.controller.TestHandler;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;

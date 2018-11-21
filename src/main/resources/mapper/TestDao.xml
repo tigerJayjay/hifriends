@@ -2,11 +2,11 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Maper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.websocket.dao.TestDao">
-    <select id="queryTest" resultType="com.example.websocket.entity.Test">
-        select * from test2
+<mapper namespace="com.easybug.dao.TestDao">
+    <select id="queryTest" resultType="com.easybug.entity.Test">
+        select * from test1
     </select>
-    <insert id="insertTest" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="Test">
-        insert into test2(t1id) values(#{tid})
+    <insert id="insertTest" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.easybug.entity.Test">
+        insert into test1(tid) values(#{tid})
     </insert>
 </mapper>

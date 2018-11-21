@@ -1,6 +1,6 @@
-package com.example.websocket.dao;
+package com.easybug.dao;
 
-import com.example.websocket.entity.Test;
+import com.easybug.entity.Test;
 
 import java.util.List;
 

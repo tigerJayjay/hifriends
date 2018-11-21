@@ -1,4 +1,4 @@
-package com.example.websocket.config;
+package com.easybug.config;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.mybatis.spring.annotation.MapperScan;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import java.beans.PropertyVetoException;
 @Configuration
 //配置mybatis mapper的扫描路径
-@MapperScan("com.example.websocket.dao")
+@MapperScan("com.easybug.dao")
 public class DataSourceConfiguration {
     @Value("${jdbc.driver}")
     private String jdbcDriver;

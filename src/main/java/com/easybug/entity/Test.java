@@ -1,4 +1,4 @@
-package com.example.websocket.entity;
+package com.easybug.entity;
 
 public class Test {
     private Integer id;
