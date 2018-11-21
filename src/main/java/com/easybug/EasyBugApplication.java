@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Import;
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.easybug.controller"})
 @Import({WebSocketConfig.class, DataSourceConfiguration.class, SessionFactoryConfiguration.class})
-public class WebsocketApplication {
+public class EasyBugApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebsocketApplication.class, args);
+        SpringApplication.run(EasyBugApplication.class, args);
     }
 }
