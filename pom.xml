@@ -12,6 +12,7 @@
         <module>model</module>
         <module>resource</module>
         <module>service</module>
+        <module>web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -31,97 +32,61 @@
         <mybatis-version>1.3.2</mybatis-version>
         <c3p0-version>0.9.5.2</c3p0-version>
         <shiro-version>1.4.0</shiro-version>
+        <spring-boot></spring-boot>
+        <class-leak>2.1.0</class-leak>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <!--<exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>-->
-        </dependency>
-        <!--添加servlet-api的依赖，使用war包部署这个必须要有-->
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-servlet-api</artifactId>
-            <version>8.0.36</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <!--websocket-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-websocket</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <!--热部署-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <!--mybatis-->
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>${mybatis-version}</version>
-        </dependency>
-
-        <!--mysql-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
-        <!--c3p0数据源-->
-        <dependency>
-            <groupId>com.mchange</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>${c3p0-version}</version>
-        </dependency>
-
-        <!--shiro-->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>${shiro-version}</version>
-        </dependency>
-    </dependencies>
+    <!-- 版本说明：这里统一管理依赖的版本号 -->
+    <dependencyManagement>
+        <dependencies>
+            <!--shiro-->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro-version}</version>
+            </dependency>
+            <!--mybatis-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-version}</version>
+            </dependency>
+            <!--c3p0数据源-->
+            <dependency>
+                <groupId>com.mchange</groupId>
+                <artifactId>c3p0</artifactId>
+                <version>${c3p0-version}</version>
+            </dependency>
+            <!--防止自动部署内存泄露-->
+            <dependency>
+                <groupId>se.jiderhamn.classloader-leak-prevention</groupId>
+                <artifactId>classloader-leak-prevention-servlet</artifactId>
+                <version>${class-leak}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
                 <configuration>
-                    <fork>true</fork>
-                    <mainClass>com.easybug.EasyBugApplication</mainClass>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
                 <configuration>
-                    <path>/</path>
-                    <port>8080</port>
-                    <url>http://http://132.232.103.107:8080/manager/text</url>
+                    <url>http://localhost:8080/manager/text</url>
                     <username>admin</username>
                     <password>password</password>
                     <update>true</update>
-                    <path>/easybug</path>
+                    <path>/easyBug</path>
                 </configuration>
             </plugin>
         </plugins>
