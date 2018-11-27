@@ -1,24 +1,54 @@
 package com.easybug.model;
 
+import java.util.List;
+
 public class User {
-    private Integer id;
-    private String userName;
-    private String password;
+   private Integer uId;
+   private String uName;
+   private Integer gender;
+   private String rName;//真实姓名
+   private String password;
+   private List<UserSchool> userSchools;
 
-    public Integer getId() {
-        return id;
+    public List<UserSchool> getUserSchools() {
+        return userSchools;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserSchools(List<UserSchool> userSchools) {
+        this.userSchools = userSchools;
     }
 
-    public String getUserName() {
-        return userName;
+    public Integer getuId() {
+        return uId;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setuId(Integer uId) {
+        this.uId = uId;
+    }
+
+
+    public String getuName() {
+        return uName;
+    }
+
+    public void setuName(String uName) {
+        this.uName = uName;
+    }
+
+    public Integer getGender() {
+        return gender;
+    }
+
+    public void setGender(Integer gender) {
+        this.gender = gender;
+    }
+
+    public String getrName() {
+        return rName;
+    }
+
+    public void setrName(String rName) {
+        this.rName = rName;
     }
 
     public String getPassword() {

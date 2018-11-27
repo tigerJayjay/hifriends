@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="https://cdn.bootcss.com/sockjs-client/1.3.0/sockjs.min.js"></script>
+    <script type="text/javascript" th:src="@{/static/js/md5.js}"></script>
+
 </head>
 <body>
-
+    <input type="text" id="md5" onblur="md5()">
 </body>
 <script>
     var url = "localhost:8080/easyBug"
@@ -36,6 +38,10 @@
     }
     function onClose(event){
         clearInterval(heartBeat);
+    }
+    function md5(){
+        var text = document.getElementById("md5");
+        console.log(hex_md5(text.value));
     }
 </script>
 </html>

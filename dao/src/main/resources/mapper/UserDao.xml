@@ -3,10 +3,43 @@
         PUBLIC "-//mybatis.org//DTD Maper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.easybug.dao.UserDao">
-    <select id="queryUser" resultType="com.easybug.model.User">
-        select * from user
-    </select>
-    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.easybug.model.User">
-        insert into user(userName,password) values(#{userName},#{password})
+    <resultMap id="userMap" type="User">
+        <id column="UID" property="uId"></id>
+        <result column="UNAME" property="uName"></result>
+        <result column="GENDER" property="gender"></result>
+        <result column="RNAME" property="rName"></result>
+    </resultMap>
+    <resultMap id="schoolInfoMap" type="User" extends="userMap">
+        <collection property="schoolInfos" ofType="UserSchool">
+            <id column="ID" property="id"></id>
+            <result column="UID" property="uId"></result>
+            <result column="SCHOOLID" property="schoolId"></result>
+            <collection property="schoolInfos" ofType="SchoolInfo">
+                <id column="ID" property="id"></id>
+                <result column="SCHOOL_NAME" property="schoolName"></result>
+                <result column="CLASS_NO" property="classNo"></result>
+                <result column="GRADE" property="grade"></result>
+                <result column="PROVINCE" property="province"></result>
+                <result column="CITY" property="city"></result>
+                <result column="PROFESSION" property="profession"></result>
+            </collection>
+        </collection>
+    </resultMap>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="User">
+        insert into user(uid,password) values(#{uId},#{password})
     </insert>
+    <select id="selectUserById" resultMap="schoolInfoMap" parameterType="Integer">
+        select
+        *
+        from
+        loginuser a,user_school b,school_info c
+        where a.UID = b.UID and c.id = b.schoolid
+        and b.uid = #{uId}
+    </select>
+    <select id="selectUserbyUidAndPass" resultType="User" parameterType="User">
+        select
+        *
+        from loginuser
+        where UID = #{uId} and PASSWORD = #{password}
+    </select>
 </mapper>
