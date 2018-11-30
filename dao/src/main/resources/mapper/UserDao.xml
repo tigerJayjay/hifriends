@@ -25,8 +25,8 @@
             </collection>
         </collection>
     </resultMap>
-    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="User">
-        insert into user(uid,uname,gender,rname,password) values(#{uId},#{uName},#{gender},#{rName},#{password})
+    <insert id="insertUser"  parameterType="User">
+        insert into loginuser(uid,uname,gender,rname,password) values(#{uId},#{uName},#{gender},#{rName},#{password})
     </insert>
     <select id="selectUserById" resultMap="schoolInfoMap" parameterType="Integer">
         select
