@@ -5,8 +5,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.Order;
 
+import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
 @Configuration
@@ -24,7 +24,7 @@ public class DataSourceConfiguration {
 
 
     @Bean(name="dataSource")
-    public ComboPooledDataSource createDataSource() throws PropertyVetoException {
+    public DataSource createDataSource() throws PropertyVetoException {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         dataSource.setDriverClass(jdbcDriver);
         dataSource.setJdbcUrl(jdbcUrl);
