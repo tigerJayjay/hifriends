@@ -4173,3 +4173,1015 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2018-12-13 18:24:45 434332 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
 2018-12-13 18:25:30 479994 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
 2018-12-13 18:25:30 479994 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 21:30:45 4983 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 1384 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 21:30:45 4999 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 21:30:46 5561 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 21:30:46 5577 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 21:30:52 11905 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 21:30:52 11936 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 21:30:52 12170 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 0 repository interfaces. 
+2018-12-13 21:30:54 13655 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$c9e4e141] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:03 22576 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:04 23685 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$7065f62c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:08 27638 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 21:31:12 31632 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 21:31:12 32304 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:12 32307 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$41f067fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37085 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37085 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37132 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37163 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3e540456] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37213 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37215 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37221 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37229 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37231 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37233 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37233 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37237 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37239 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37272 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:17 37272 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:18 37459 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:18 37818 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0b465f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:19 38469 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7034b32b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:31:22 42048 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 21:31:22 42141 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 21:31:22 42173 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 21:31:22 42173 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 21:31:22 42188 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 21:31:23 42571 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 21:31:23 42571 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 36994 ms 
+2018-12-13 21:31:23 42836 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 21:31:23 42883 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 21:31:23 42883 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 21:31:23 42883 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 21:31:23 42883 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 21:31:23 42883 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 21:31:23 43086 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 21:31:25 44931 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1ajqwq18sqo54|4cf2adc8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1ajqwq18sqo54|4cf2adc8, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 21:31:26 45936 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 21:31:26 45969 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 21:31:26 45969 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 21:31:26 46032 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 21:31:26 46038 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 21:31:26 46038 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544707886501'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 21:31:26 46038 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 21:31:26 46038 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 21:31:26 46038 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@5625dd7f 
+2018-12-13 21:31:30 49834 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 21:31:35 55083 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 21:31:35 55419 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 21:31:37 56837 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 21:33:25 1563 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 8316 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 21:33:25 1563 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 21:33:25 1709 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 21:33:25 1709 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 21:33:29 5646 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 21:33:29 5662 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 21:33:29 5834 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 0 repository interfaces. 
+2018-12-13 21:33:30 6599 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$ca181ab3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 7349 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 7396 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$70992f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 7552 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 21:33:31 7615 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 21:33:31 7677 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 7677 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$4223a16f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8006 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8006 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8021 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8037 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3e873dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8052 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8052 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8084 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8084 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:31 8146 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:32 8271 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0e79f6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:33:32 8474 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2018-12-13 21:36:12 1703 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 9864 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 21:36:12 1703 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 21:36:12 1828 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 21:36:12 1828 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 21:36:15 4905 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 21:36:15 4920 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 21:36:15 5061 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 0 repository interfaces. 
+2018-12-13 21:36:16 6420 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$ab178a10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:17 7108 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:17 7155 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$51989efb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:17 7326 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 21:36:17 7373 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 21:36:17 7436 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:17 7436 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$232310cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7779 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7779 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7795 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7826 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$1f86ad25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7842 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7842 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7842 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7873 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 7920 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 8045 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1e70ec8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:36:18 8264 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2018-12-13 21:37:29 1765 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 5136 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 21:37:29 1765 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 21:37:29 1890 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 21:37:29 1890 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 21:37:32 5224 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 21:37:32 5224 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 21:37:33 5552 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 266ms. Found 0 repository interfaces. 
+2018-12-13 21:37:34 7317 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$3e130c50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:35 8036 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:35 8083 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$e494213b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:35 8223 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 21:37:35 8270 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 21:37:35 8333 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:35 8333 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$b61e930c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8676 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8676 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8708 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8723 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$b2822f65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8739 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8739 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8755 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8755 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8755 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8755 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8755 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8770 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8770 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8770 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8770 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 8848 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 9004 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64e29108] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:36 9208 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e462de3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:37:37 9911 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 21:37:37 9926 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 21:37:37 9942 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 21:37:37 9942 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 21:37:37 9958 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 21:37:37 10145 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 21:37:37 10145 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8255 ms 
+2018-12-13 21:37:37 10317 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 21:37:37 10333 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 21:37:37 10333 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 21:37:37 10333 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 21:37:37 10333 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 21:37:37 10333 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 21:37:38 10395 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 21:37:38 10739 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1ajz5b0180ydph|7294d868, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1ajz5b0180ydph|7294d868, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 21:37:38 11129 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 21:37:38 11161 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 21:37:38 11161 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 21:37:38 11161 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 21:37:38 11161 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 21:37:38 11176 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544708258759'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 21:37:38 11176 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 21:37:38 11176 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 21:37:38 11176 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@297ead59 
+2018-12-13 21:37:39 12176 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 21:37:40 12957 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 21:37:40 12989 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 21:37:40 13317 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 21:37:42 14942 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now 
+2018-12-13 21:37:42 15317 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances. 
+2018-12-13 21:37:42 15317 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-72AN4UO1544696267038"'s failed in-progress jobs. 
+2018-12-13 21:37:43 15379 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544708258759 started. 
+2018-12-13 21:37:43 15394 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2018-12-13 21:37:43 15702 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s) 
+2018-12-13 21:37:43 15714 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2018-12-13 21:37:43 15731 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 15734 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: toMain belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.easybug.web.MainController}]]  
+2018-12-13 21:37:43 15736 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:37:43 15736 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:37:43 15737 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:37:43 15737 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: loginout belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:37:43 15738 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:37:43 15738 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:37:43 15745 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/main-controller Description: main-controller Position: 0 
+2018-12-13 21:37:43 15747 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/login-controller Description: login-controller Position: 0 
+2018-12-13 21:37:43 15837 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 15837 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 15851 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 15851 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 16028 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 16029 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 16037 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 16037 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 16039 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16039 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16044 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16044 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16053 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16054 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16054 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16054 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16055 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16055 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16055 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16055 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16060 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16060 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16061 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16061 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16064 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16064 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16117 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:37:43 16151 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:37:43 16165 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16166 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16166 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16166 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16166 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16166 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16168 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:37:43 16169 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:37:43 16171 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 16172 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 16172 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:37:43 16172 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 21:37:43 16172 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:37:43 16173 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16174 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16176 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:37:43 16178 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:37:43 16187 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 21:37:43 16187 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true) 
+2018-12-13 21:37:43 16188 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 21:37:43 16188 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true) 
+2018-12-13 21:37:43 16188 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16188 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:37:43 16189 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16189 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16190 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16192 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16193 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16194 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16195 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16196 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16197 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16198 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16199 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16200 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16201 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16202 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16203 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16203 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:37:43 16229 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-12-13 21:37:43 16256 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-12-13 21:37:43 16312 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/hifriends' 
+2018-12-13 21:37:43 16319 [restartedMain] INFO  com.easybug.WebApplication - Started WebApplication in 15.741 seconds (JVM running for 17.099) 
+2018-12-13 21:37:43 16328 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启 
+2018-12-13 21:37:44 16398 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544708258759 started. 
+2018-12-13 21:37:44 16398 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启结束 
+2018-12-13 21:37:56 2721 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 6712 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 21:37:56 2728 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 21:37:56 3080 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 21:37:56 3081 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 21:38:01 7581 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 21:38:01 7581 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 21:38:01 7690 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 repository interfaces. 
+2018-12-13 21:38:02 8784 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$d321cd54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:03 9768 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:03 9862 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$79a2e23f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:03 9924 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 21:38:03 10127 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 21:38:03 10252 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:03 10252 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$4b2d5410] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10721 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10737 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10768 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10784 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$4790f069] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10815 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10815 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10815 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10831 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10831 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10862 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 10924 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:04 11081 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9f1520c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:05 11409 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$79719f3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 21:38:06 12393 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 21:38:06 12424 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 21:38:06 12440 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 21:38:06 12440 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 21:38:06 12471 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 21:38:06 12705 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 21:38:06 12705 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9624 ms 
+2018-12-13 21:38:06 12909 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 21:38:06 12924 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 21:38:06 12924 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 21:38:06 12924 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 21:38:06 12924 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 21:38:06 12924 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 21:38:06 13002 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 21:38:07 13455 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1ajzquj1jjuc55|6c2c759b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1ajzquj1jjuc55|6c2c759b, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 21:38:07 13971 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 21:38:07 14002 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 21:38:07 14002 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544708287694'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 21:38:07 14018 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@706ead5e 
+2018-12-13 21:38:09 15486 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 21:38:10 16596 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 21:38:10 16658 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 21:38:10 17033 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 21:38:12 18580 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now 
+2018-12-13 21:38:12 18674 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances. 
+2018-12-13 21:38:12 18674 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-72AN4UO1544708258759"'s failed in-progress jobs. 
+2018-12-13 21:38:12 18734 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544708287694 started. 
+2018-12-13 21:38:12 18749 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2018-12-13 21:38:12 18802 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s) 
+2018-12-13 21:38:12 18822 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2018-12-13 21:38:12 18830 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 18834 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: toMain belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.easybug.web.MainController}]]  
+2018-12-13 21:38:12 18836 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:38:12 18837 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:38:12 18838 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:38:12 18838 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: loginout belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:38:12 18838 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:38:12 18838 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 21:38:12 18846 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/login-controller Description: login-controller Position: 0 
+2018-12-13 21:38:12 18848 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/main-controller Description: main-controller Position: 0 
+2018-12-13 21:38:12 18910 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 18910 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 18927 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 18928 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 19034 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 19034 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 19044 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 19044 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 19046 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19046 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19050 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19050 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19062 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19063 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19064 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19064 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19065 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19065 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19067 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19067 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19070 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19071 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19071 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19071 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19074 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19074 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19101 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:38:12 19144 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 21:38:12 19163 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19164 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19164 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19165 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19165 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19165 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19167 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:38:12 19169 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 21:38:12 19172 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 19172 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 19173 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 21:38:12 19173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 21:38:12 19173 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 21:38:12 19174 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19174 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 21:38:12 19174 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19175 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19175 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19175 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 21:38:12 19182 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19184 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19186 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:38:12 19188 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 21:38:12 19196 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 21:38:12 19196 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true) 
+2018-12-13 21:38:12 19197 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 21:38:12 19197 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true) 
+2018-12-13 21:38:12 19197 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19197 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 21:38:12 19198 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19198 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19199 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19200 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19201 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19202 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19204 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19204 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19206 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19207 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19209 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19210 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19211 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19212 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19212 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19213 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 21:38:12 19238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-12-13 21:38:12 19276 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-12-13 21:38:13 19320 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/hifriends' 
+2018-12-13 21:38:13 19326 [restartedMain] INFO  com.easybug.WebApplication - Started WebApplication in 18.67 seconds (JVM running for 20.246) 
+2018-12-13 21:38:13 19333 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启 
+2018-12-13 21:38:13 19373 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544708287694 started. 
+2018-12-13 21:38:13 19373 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启结束 
+2018-12-13 21:38:18 24888 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2018-12-13 21:38:18 24888 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2018-12-13 21:38:18 24917 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 28 ms 
+2018-12-13 21:38:18 25020 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler... 
+2018-12-13 21:38:18 25060 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:18 25061 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"] 
+2018-12-13 21:38:18 25219 [http-nio-8080-exec-2] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:18 25219 [http-nio-8080-exec-2] INFO  c.easybug.component.JwtInterceptor - org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() 
+2018-12-13 21:38:18 25251 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:18 25251 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"] 
+2018-12-13 21:38:19 25328 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:19 25329 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-12-13 21:38:19 25551 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:19 25551 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"] 
+2018-12-13 21:38:19 25555 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:19 25555 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-12-13 21:38:19 25555 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:19 25555 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String) 
+2018-12-13 21:38:21 27880 [http-nio-8080-exec-6] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:21 27881 [http-nio-8080-exec-6] INFO  c.easybug.component.JwtInterceptor - org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() 
+2018-12-13 21:38:21 27890 [http-nio-8080-exec-6] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:38:21 27891 [http-nio-8080-exec-6] INFO  c.easybug.component.JwtInterceptor - org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() 
+2018-12-13 21:41:46 232707 [http-nio-8080-exec-10] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 21:41:46 232708 [http-nio-8080-exec-10] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:22:27 2265 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 8788 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 22:22:27 2281 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 22:22:28 2624 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 22:22:28 2624 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 22:22:32 6968 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 22:22:32 6984 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 22:22:32 7062 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces. 
+2018-12-13 22:22:33 7937 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$e9d8d9d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:34 8952 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:34 9046 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$9059eebb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:34 9093 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 22:22:34 9171 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 22:22:34 9296 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:34 9296 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$61e4608c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9749 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9749 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9796 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9811 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$5e47fce5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9843 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9843 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9874 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9874 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 9936 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 10077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10a85e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:35 10358 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9028abba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:22:36 11327 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 22:22:36 11358 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 22:22:36 11374 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 22:22:36 11374 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 22:22:36 11389 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 22:22:37 11593 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 22:22:37 11593 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8969 ms 
+2018-12-13 22:22:37 11764 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 22:22:37 11780 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 22:22:37 11780 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 22:22:37 11780 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 22:22:37 11780 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 22:22:37 11780 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 22:22:37 11889 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 22:22:37 12280 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1alkzp11pxvn4i|33277a41, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1alkzp11pxvn4i|33277a41, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 22:22:38 12702 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544710958240'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 22:22:38 12749 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@e0db402 
+2018-12-13 22:22:39 14046 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 22:22:40 15077 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 22:22:40 15139 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 22:22:41 15499 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 22:22:42 17030 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now 
+2018-12-13 22:22:42 17108 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances. 
+2018-12-13 22:22:42 17123 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-72AN4UO1544708287694"'s failed in-progress jobs. 
+2018-12-13 22:22:42 17151 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544710958240 started. 
+2018-12-13 22:22:42 17163 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2018-12-13 22:22:42 17208 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s) 
+2018-12-13 22:22:42 17228 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2018-12-13 22:22:42 17235 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:42 17240 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: toMain belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.easybug.web.MainController}]]  
+2018-12-13 22:22:42 17241 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:22:42 17242 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:22:42 17243 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:22:42 17243 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: loginout belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:22:42 17243 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:22:42 17244 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:22:42 17253 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/login-controller Description: login-controller Position: 0 
+2018-12-13 22:22:42 17255 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/main-controller Description: main-controller Position: 0 
+2018-12-13 22:22:42 17309 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:22:42 17309 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 22:22:42 17325 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 22:22:42 17325 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 22:22:42 17394 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:22:42 17395 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 22:22:42 17402 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 22:22:42 17402 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 22:22:42 17404 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:42 17404 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:42 17409 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:42 17409 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:42 17416 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:42 17417 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:42 17419 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:42 17419 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:42 17420 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17420 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17420 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17420 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17423 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17423 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17423 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17423 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:42 17426 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:42 17426 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:42 17458 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:22:43 17495 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17515 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17517 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:22:43 17518 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:22:43 17520 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:22:43 17520 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 22:22:43 17521 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:22:43 17521 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 22:22:43 17521 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:43 17521 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:22:43 17522 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:43 17522 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:22:43 17523 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17523 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17523 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17523 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:22:43 17524 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17524 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17526 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:22:43 17528 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:22:43 17537 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 22:22:43 17537 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true) 
+2018-12-13 22:22:43 17538 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 22:22:43 17538 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true) 
+2018-12-13 22:22:43 17538 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17538 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:22:43 17539 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17540 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17541 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17542 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17543 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17546 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17547 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17548 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17549 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17550 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17551 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17551 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17552 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17553 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17554 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17556 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:22:43 17589 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-12-13 22:22:43 17609 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-12-13 22:22:43 17641 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/hifriends' 
+2018-12-13 22:22:43 17646 [restartedMain] INFO  com.easybug.WebApplication - Started WebApplication in 16.927 seconds (JVM running for 18.661) 
+2018-12-13 22:22:43 17651 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启 
+2018-12-13 22:22:43 17691 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544710958240 started. 
+2018-12-13 22:22:43 17691 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启结束 
+2018-12-13 22:23:35 69494 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2018-12-13 22:23:35 69495 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2018-12-13 22:23:35 69529 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 34 ms 
+2018-12-13 22:23:35 69569 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler... 
+2018-12-13 22:23:35 69598 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:23:35 69598 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:32:26 600585 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:32:26 600585 [http-nio-8080-exec-3] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:33:30 665324 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:33:30 665324 [http-nio-8080-exec-4] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:35:38 793178 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:35:38 793178 [http-nio-8080-exec-5] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:40:59 1114278 [http-nio-8080-exec-7] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:40:59 1114278 [http-nio-8080-exec-7] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 22:55:11 1904 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 5564 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 22:55:11 1904 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 22:55:11 2044 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 22:55:11 2044 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 22:55:16 7400 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 22:55:16 7431 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 22:55:16 7637 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces. 
+2018-12-13 22:55:17 8636 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$bb7be0c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:18 9574 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:18 9683 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$61fcf5af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:18 9761 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 22:55:19 9839 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 22:55:19 9917 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 9933 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$33876780] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10402 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10402 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10433 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10449 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2feb03d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10464 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10464 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10496 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10496 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10574 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:19 10714 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e24b657c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:20 11011 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$61cbb2ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 22:55:21 11949 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 22:55:21 11980 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 22:55:21 11995 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 22:55:21 11995 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 22:55:21 12011 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 22:55:21 12261 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 22:55:21 12261 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 10216 ms 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 22:55:21 12449 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 22:55:21 12527 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 22:55:22 12933 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1amr3dvg516gp|2e342263, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1amr3dvg516gp|2e342263, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 22:55:22 13386 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 22:55:22 13417 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 22:55:22 13417 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544712922573'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 22:55:22 13433 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@37382d9f 
+2018-12-13 22:55:23 14683 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 22:55:24 15679 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 22:55:24 15741 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 22:55:25 16069 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 22:55:26 17632 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now 
+2018-12-13 22:55:26 17725 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances. 
+2018-12-13 22:55:26 17725 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-72AN4UO1544710958240"'s failed in-progress jobs. 
+2018-12-13 22:55:26 17803 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544712922573 started. 
+2018-12-13 22:55:27 17836 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2018-12-13 22:55:27 17875 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s) 
+2018-12-13 22:55:27 17893 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2018-12-13 22:55:27 17899 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 17904 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: toMain belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.easybug.web.MainController}]]  
+2018-12-13 22:55:27 17906 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:55:27 17906 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:55:27 17906 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:55:27 17907 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: loginout belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:55:27 17907 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:55:27 17907 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 22:55:27 17913 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/login-controller Description: login-controller Position: 0 
+2018-12-13 22:55:27 17915 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/main-controller Description: main-controller Position: 0 
+2018-12-13 22:55:27 17957 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 17957 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 17973 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 17973 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 18045 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 18045 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 18055 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 18055 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 18057 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18057 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18060 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18060 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18071 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18071 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18072 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18072 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18073 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18073 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18073 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18073 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18078 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18078 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18079 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18079 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18081 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18082 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18107 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:55:27 18142 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 22:55:27 18162 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18162 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18163 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18163 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18163 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18163 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18164 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:55:27 18166 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 22:55:27 18168 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 18169 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 18170 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 22:55:27 18170 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 22:55:27 18171 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18171 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 22:55:27 18172 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18172 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 22:55:27 18172 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18172 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18173 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 22:55:27 18173 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18173 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18175 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:55:27 18177 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 22:55:27 18187 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 22:55:27 18188 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true) 
+2018-12-13 22:55:27 18188 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 22:55:27 18188 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true) 
+2018-12-13 22:55:27 18189 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18189 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 22:55:27 18190 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18192 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18193 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18194 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18195 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18196 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18199 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18200 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18201 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18201 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18202 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18203 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18204 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18205 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18207 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18208 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 22:55:27 18241 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-12-13 22:55:27 18260 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-12-13 22:55:27 18299 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/hifriends' 
+2018-12-13 22:55:27 18304 [restartedMain] INFO  com.easybug.WebApplication - Started WebApplication in 17.638 seconds (JVM running for 19.565) 
+2018-12-13 22:55:27 18309 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启 
+2018-12-13 22:55:27 18345 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544712922573 started. 
+2018-12-13 22:55:27 18346 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启结束 
+2018-12-13 22:55:42 32871 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2018-12-13 22:55:42 32872 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2018-12-13 22:55:42 32908 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 36 ms 
+2018-12-13 22:55:42 32948 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler... 
+2018-12-13 22:55:42 32977 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 22:55:42 32977 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 23:04:22 2312 [restartedMain] INFO  com.easybug.WebApplication - Starting WebApplication on DESKTOP-72AN4UO with PID 4772 (E:\IdeaProject\easyBug\web\target\classes started by tiger in E:\IdeaProject\easyBug) 
+2018-12-13 23:04:22 2343 [restartedMain] INFO  com.easybug.WebApplication - No active profile set, falling back to default profiles: default 
+2018-12-13 23:04:23 2687 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2018-12-13 23:04:23 2687 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2018-12-13 23:04:26 6265 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2018-12-13 23:04:26 6281 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2018-12-13 23:04:26 6374 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 repository interfaces. 
+2018-12-13 23:04:27 7296 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springShiroConfig' of type [com.easybug.config.SpringShiroConfig$$EnhancerBySpringCGLIB$$779bf527] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:28 8327 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:28 8390 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfiguration' of type [com.easybug.config.DataSourceConfiguration$$EnhancerBySpringCGLIB$$1e1d0a12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:28 8437 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging. 
+2018-12-13 23:04:28 8499 [restartedMain] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10] 
+2018-12-13 23:04:29 8577 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 8577 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactoryConfiguration' of type [com.easybug.config.SessionFactoryConfiguration$$EnhancerBySpringCGLIB$$efa77be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 8999 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 8999 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9015 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9046 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$ec0b183c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9062 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9062 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'codeGeneratorDao' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loginImpl' of type [com.easybug.service.login.LoginImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authRealm' of type [com.easybug.realm.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9093 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9093 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9093 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9093 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9171 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:29 9312 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e6b79df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:30 9577 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1debc711] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2018-12-13 23:04:30 10452 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2018-12-13 23:04:30 10468 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-12-13 23:04:30 10483 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-12-13 23:04:30 10483 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2018-12-13 23:04:30 10499 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\Jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\Jdk1.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Putty\;C:\Users\tiger\AppData\Local\Microsoft\WindowsApps;;.] 
+2018-12-13 23:04:31 10749 [restartedMain] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring embedded WebApplicationContext 
+2018-12-13 23:04:31 10749 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8062 ms 
+2018-12-13 23:04:31 10921 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-12-13 23:04:31 10936 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-13 23:04:31 10936 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-13 23:04:31 10936 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2018-12-13 23:04:31 10936 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-13 23:04:31 10936 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*] 
+2018-12-13 23:04:31 10999 [restartedMain] INFO  s.j.c.l.p.ClassLoaderLeakPreventor - Initializing by loading some known offenders with leak safe classloader 
+2018-12-13 23:04:31 11414 [restartedMain] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge4u99z1an2vqulx3kt6|372e974c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge4u99z1an2vqulx3kt6|372e974c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hifriends?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+2018-12-13 23:04:32 11868 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor 
+2018-12-13 23:04:32 11899 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2018-12-13 23:04:32 11899 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created. 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - Using db table-based data access locking (synchronization). 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - JobStoreCMT initialized. 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultScheduler' with instanceId 'DESKTOP-72AN4UO1544713472366'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+ 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultScheduler' initialized from an externally provided properties instance. 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0 
+2018-12-13 23:04:32 11914 [restartedMain] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.easybug.quartz.AutowiringSpringBeanJobFactory@38be9b12 
+2018-12-13 23:04:33 13117 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'defaultSockJsTaskScheduler' 
+2018-12-13 23:04:34 14024 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2018-12-13 23:04:34 14086 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-12-13 23:04:34 14414 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+2018-12-13 23:04:36 15852 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now 
+2018-12-13 23:04:36 15930 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances. 
+2018-12-13 23:04:36 15930 [restartedMain] INFO  o.s.s.q.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-72AN4UO1544712922573"'s failed in-progress jobs. 
+2018-12-13 23:04:36 16017 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544713472366 started. 
+2018-12-13 23:04:36 16030 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2018-12-13 23:04:36 16087 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s) 
+2018-12-13 23:04:36 16106 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2018-12-13 23:04:36 16113 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16118 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: toMain belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.easybug.web.MainController}]]  
+2018-12-13 23:04:36 16119 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 23:04:36 16122 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 23:04:36 16123 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 23:04:36 16123 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: loginout belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 23:04:36 16124 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 23:04:36 16124 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='login-controller', position=0, controller=com.easybug.web.LoginController}]]  
+2018-12-13 23:04:36 16132 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/main-controller Description: main-controller Position: 0 
+2018-12-13 23:04:36 16135 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/login-controller Description: login-controller Position: 0 
+2018-12-13 23:04:36 16199 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16200 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16214 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16214 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16289 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16289 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16299 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16299 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16301 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16301 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16304 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16304 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16314 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16314 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16315 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16315 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16315 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16315 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16316 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16316 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16320 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16320 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16321 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16321 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16324 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16324 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/doLogin.com.easybug.web.LoginController.login.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16351 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 23:04:36 16428 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was login-controller 
+2018-12-13 23:04:36 16446 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16446 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16447 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16447 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16447 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16447 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/logout.com.easybug.web.LoginController.loginout.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16449 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 23:04:36 16450 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method loginout was login-controller 
+2018-12-13 23:04:36 16452 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16453 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16453 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.model.User(false) 
+2018-12-13 23:04:36 16453 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.model.User(false) 
+2018-12-13 23:04:36 16454 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16454 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.UserSchool(false) 
+2018-12-13 23:04:36 16454 [restartedMain] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16454 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.easybug.model.SchoolInfo(false) 
+2018-12-13 23:04:36 16455 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16455 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16455 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16455 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.easybug.common.ResultJson(true) 
+2018-12-13 23:04:36 16456 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16456 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/register.com.easybug.web.LoginController.register.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16458 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 23:04:36 16460 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method register was login-controller 
+2018-12-13 23:04:36 16471 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 23:04:36 16471 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true) 
+2018-12-13 23:04:36 16471 [restartedMain] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true) 
+2018-12-13 23:04:36 16471 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true) 
+2018-12-13 23:04:36 16472 [restartedMain] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16472 [restartedMain] INFO  s.d.s.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.com.easybug.web.MainController.toMain.DefaultGenericTypeNamingStrategy 
+2018-12-13 23:04:36 16473 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16474 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16475 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16476 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16477 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16481 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16483 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16484 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16485 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16486 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16487 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16488 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16489 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16490 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16490 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:36 16491 [restartedMain] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method toMain was main-controller 
+2018-12-13 23:04:37 16518 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-12-13 23:04:37 16539 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-12-13 23:04:37 16573 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/hifriends' 
+2018-12-13 23:04:37 16577 [restartedMain] INFO  com.easybug.WebApplication - Started WebApplication in 15.904 seconds (JVM running for 17.466) 
+2018-12-13 23:04:37 16583 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启 
+2018-12-13 23:04:37 16619 [restartedMain] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultScheduler_$_DESKTOP-72AN4UO1544713472366 started. 
+2018-12-13 23:04:37 16619 [restartedMain] INFO  c.e.listener.ApplicationStartup - 定时任务开启结束 
+2018-12-13 23:04:53 32626 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/hifriends] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2018-12-13 23:04:53 32627 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2018-12-13 23:04:53 32661 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 34 ms 
+2018-12-13 23:04:53 32700 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler... 
+2018-12-13 23:04:53 32736 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 23:04:53 32737 [http-nio-8080-exec-1] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
+2018-12-13 23:05:25 64881 [http-nio-8080-exec-2] INFO  c.easybug.component.JwtInterceptor - 拦截器拦截... 
+2018-12-13 23:05:25 64881 [http-nio-8080-exec-2] INFO  c.easybug.component.JwtInterceptor - public com.easybug.common.ResultJson com.easybug.web.LoginController.loginout(javax.servlet.http.HttpServletRequest) 
