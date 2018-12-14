@@ -10,7 +10,6 @@ import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
 @Configuration
-//配置mybatis mapper的扫描路径
 @MapperScan("com.easybug.dao")
 public class DataSourceConfiguration {
     @Value("${jdbc.driver}")

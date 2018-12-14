@@ -25,4 +25,5 @@
 /.nb-gradle/
 
 ##log###
+/logs/
 .log

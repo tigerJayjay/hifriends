@@ -11,9 +11,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestHandler extends TextWebSocketHandler {
-    private static final Map<String,Thread> map;
+    private static final Map<String,Thread> SESSION_MAP;
     static {
-        map = new HashMap<String, Thread>();
+        SESSION_MAP = new HashMap<String, Thread>();
     }
 
     @Override
@@ -22,9 +22,9 @@ public class TestHandler extends TextWebSocketHandler {
     }
 
     public void closeSession(WebSocketSession session,String id){
-       SocketThread thread =  (SocketThread) map.get(id);
+       SocketThread thread =  (SocketThread) SESSION_MAP.get(id);
        if(thread!=null){
-           map.remove(id);
+           SESSION_MAP.remove(id);
            thread.setFlag(false);
            System.out.println(id+"closed");
        }
@@ -33,14 +33,14 @@ public class TestHandler extends TextWebSocketHandler {
     protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
         String param  = message.getPayload();
         if(param!=null && !"".equals(param)){
-            if(map.containsKey(session.getId())){
+            if(SESSION_MAP.containsKey(session.getId())){
                 SimpleDateFormat dataFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 String date = dataFormatter.format(new Date());
                 System.out.println(date + session.getId()+" : Received client heartbeat......");
                 return;
             }
             SocketThread thread = new SocketThread(session,param);
-            map.put(session.getId(),thread);
+            SESSION_MAP.put(session.getId(),thread);
             thread.setDaemon(true);
             thread.start();
         }
@@ -70,7 +70,6 @@ public class TestHandler extends TextWebSocketHandler {
                 try {
                     session.sendMessage(new TextMessage(param));
                     Thread.sleep(1000);
-                    //session.close();
                 } catch(Exception e){
                     e.printStackTrace();
                 } finally{
