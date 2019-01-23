@@ -8,9 +8,10 @@
         <result column="UNAME" property="uName"></result>
         <result column="GENDER" property="gender"></result>
         <result column="RNAME" property="rName"></result>
+        <result column="PASSWORD" property="password"></result>
     </resultMap>
     <resultMap id="schoolInfoMap" type="User" extends="userMap">
-        <collection property="schoolInfos" ofType="UserSchool">
+        <collection property="userSchools" ofType="UserSchool">
             <id column="ID" property="id"></id>
             <result column="UID" property="uId"></result>
             <result column="SCHOOLID" property="schoolId"></result>
@@ -29,12 +30,13 @@
         insert into loginuser(uid,uname,gender,rname,password) values(#{uId},#{uName},#{gender},#{rName},#{password})
     </insert>
     <select id="selectUserById" resultMap="schoolInfoMap" parameterType="Integer">
-        select
+         select
         *
         from
-        loginuser a,user_school b,school_info c
-        where a.UID = b.UID and c.id = b.schoolid
-        and b.uid = #{uId}
+        loginuser a
+        left join user_school b on a.UID = b.UID
+         left join school_info c on c.id = b.schoolid
+        where a.uid = #{uId}
     </select>
     <select id="selectUserbyUidAndPass" resultType="User" parameterType="User">
         select

@@ -1,5 +1,6 @@
 package com.easybug.service.login;
 
+import com.easybug.common.Md5Utils;
 import com.easybug.dao.CodeGeneratorDao;
 import com.easybug.dao.UserDao;
 import com.easybug.model.User;
@@ -21,7 +22,12 @@ public class LoginImpl implements ILogin {
      */
     @Override
     public User login(User user) {
-        User u =  userDao.selectUserbyUidAndPass(user);
+        User u =  userDao.selectUserById(user.getuId());
+        if(u!=null){
+            if(!Md5Utils.verify(user.getPassword(),u.getPassword())){
+                return null;
+            }
+        }
         return u;
     }
 
@@ -39,6 +45,7 @@ public class LoginImpl implements ILogin {
         }
         if(codeDao.updateStatus(id)>0){
             user.setuId(id);
+            user.setPassword(Md5Utils.generate(user.getPassword()));
             if(userDao.insertUser(user)>0){
                 return true;
             }

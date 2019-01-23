@@ -2,7 +2,6 @@ package com.easybug.cache;
 
 import com.easybug.common.SysException;
 import com.easybug.model.TokenBlackList;
-import jdk.nashorn.internal.parser.Token;
 import org.apache.shiro.cache.Cache;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

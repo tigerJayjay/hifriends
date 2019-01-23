@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Maper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easybug.dao.CodeGeneratorDao">
+    <select id="generatorCode" parameterType="map" statementType="CALLABLE">
+        call generatorCode(#{startCode},#{endCode})
+    </select>
+
+    <select id="getLeftCount" resultType="int">
+        select count(1) from codepool where isUsed = 0
+    </select>
+
+    <select id="getNewCode" resultType="int">
+        select code from codepool where isUsed=0 limit 1
+    </select>
+
+    <select id="getMaxCode" resultType="int">
+        select code from codepool order by code desc limit 1
+    </select>
+
+    <update id="updateStatus" parameterType="int">
+        update codepool set isUsed = 1 where code = #{code}
+    </update>
+</mapper>

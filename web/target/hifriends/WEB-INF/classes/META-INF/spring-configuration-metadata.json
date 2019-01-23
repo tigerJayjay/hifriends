@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "app.jwt",
+      "type": "com.easybug.config.JWT",
+      "sourceType": "com.easybug.config.JWT"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt.expire",
+      "type": "java.lang.Long",
+      "description": "有效时间",
+      "sourceType": "com.easybug.config.JWT",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.jwt.header",
+      "type": "java.lang.String",
+      "description": "用户凭证",
+      "sourceType": "com.easybug.config.JWT"
+    },
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "description": "加密秘钥",
+      "sourceType": "com.easybug.config.JWT"
+    }
+  ],
+  "hints": []
+}

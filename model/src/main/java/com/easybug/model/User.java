@@ -6,7 +6,7 @@ public class User {
    private Integer uId;
    private String uName;
    private Integer gender;
-   private String rName;//真实姓名
+   private String rName;
    private String password;
    private List<UserSchool> userSchools;
 
