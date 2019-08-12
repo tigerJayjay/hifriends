@@ -1,2 +1,2 @@
-# easyBug
-Record any bugs you encounter
+# hifriends
+融合多种框架
