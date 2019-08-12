@@ -2,9 +2,11 @@ package com.easybug.config;
 
 import com.easybug.cache.BlackListAop;
 import com.easybug.component.JwtInterceptor;
+import org.apache.cxf.transport.servlet.CXFServlet;
 import org.quartz.ee.servlet.QuartzInitializerListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -18,7 +20,7 @@ public class WebConfig implements WebMvcConfigurer {
     private JwtInterceptor jwtInterceptor;
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(jwtInterceptor).addPathPatterns("/**");
+        registry.addInterceptor(jwtInterceptor).addPathPatterns("/hi");
     }
 
     @Bean
@@ -26,5 +28,11 @@ public class WebConfig implements WebMvcConfigurer {
         ServletListenerRegistrationBean listenerRegistrationBean = new ServletListenerRegistrationBean();
         listenerRegistrationBean.setListener(new ClassLoaderLeakPreventorListener());
         return listenerRegistrationBean;
+    }
+
+    @Bean
+    public ServletRegistrationBean serviceServlet(){
+        ServletRegistrationBean serviceServlet = new ServletRegistrationBean(new CXFServlet(),"/service/*");
+        return serviceServlet;
     }
 }

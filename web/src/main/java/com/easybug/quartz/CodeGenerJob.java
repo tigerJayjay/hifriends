@@ -6,7 +6,7 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class CodeGenerJob implements Job {
+public class CodeGenerJob implements Job{
     @Autowired
     private CodeGeneratorService codeService;
     private static Integer underLimit;

@@ -3,7 +3,11 @@ package com.easybug.listener;
 import com.easybug.cache.BlackListCacheManager;
 import com.easybug.common.SysException;
 import com.easybug.model.TokenBlackList;
+import com.easybug.netty.server.ServerInit;
 import com.easybug.quartz.CodeGenerJob;
+import com.easybug.quartz.JobBean;
+import com.easybug.quartz.JobHandler;
+import com.easybug.quartz.TriggerBean;
 import com.easybug.service.token.ITokenService;
 import org.apache.shiro.cache.Cache;
 import org.quartz.*;
@@ -22,9 +26,9 @@ import java.util.List;
  */
 @Component
 public class ApplicationStartup implements ApplicationListener<ApplicationReadyEvent> {
-    Logger logger = LoggerFactory.getLogger(ApplicationStartup.class);
+
     @Autowired
-    private Scheduler scheduler;
+    private JobHandler jobHandler;
     @Autowired
     private ITokenService tokenService;
     @Autowired
@@ -35,32 +39,21 @@ public class ApplicationStartup implements ApplicationListener<ApplicationReadyE
         if(applicationReadyEvent.getApplicationContext().getParent()==null){
             startJob();
             //startBlackList();
+            nettyServerStart();
         }
     }
 
-    /**
-     * 开启定时任务
-     */
-    private void startJob() {
-        logger.info("定时任务开启");
-        JobKey jobKey = new JobKey("codeJob_1", "codeGroup_1");
-        try {
-            List<? extends Trigger> triggersOfJob = scheduler.getTriggersOfJob(jobKey);
-            if (triggersOfJob.size() == 0) {
-                JobDetail jobDetail = JobBuilder.newJob(CodeGenerJob.class).withIdentity("codeJob_1", "codeGroup_1").build();
-                CronScheduleBuilder builder = CronScheduleBuilder.cronSchedule("0 53 12 * * ?").withMisfireHandlingInstructionDoNothing();
-                CronTrigger trigger = TriggerBuilder.newTrigger().withSchedule(builder).withIdentity("codeTrigger_1", "codeGroup_1").build();
-                scheduler.scheduleJob(jobDetail, trigger);
-            } else {
-                scheduler.resumeJob(jobKey);
-            }
-            scheduler.start();
-        } catch (SchedulerException e) {
-            e.printStackTrace();
-            throw new SysException("任务开启异常", 500);
-        }
-        logger.info("定时任务开启结束");
+    private void startJob(){
+        JobBean jobBean  = new JobBean("codeJob","sysJobGroup","0 53 12 * * ?","com.easybug.quartz.CodeGenerJob");
+        TriggerBean triggerBean = new TriggerBean("codeGeneratorTrigger","sysTriggerGroup");
+        jobBean.setTrigger(triggerBean);
+        jobHandler.startJob(jobBean);
     }
+
+    private void nettyServerStart(){
+        new Thread(new ServerInit("0.0.0.0",8082)).start();
+    }
+
 
     /**
      * 开启黑名单缓存
