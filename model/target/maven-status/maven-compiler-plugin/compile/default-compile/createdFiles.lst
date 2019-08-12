@@ -1,0 +1,7 @@
+com\easybug\model\StandardCode.class
+com\easybug\model\User.class
+com\easybug\model\UserSchool.class
+com\easybug\model\ScheduleJobEntity.class
+com\easybug\model\SchoolInfo.class
+com\easybug\model\StandardCodeType.class
+com\easybug\model\TokenBlackList.class

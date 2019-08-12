@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easybug.dao.TokenBlackListDao">
+  <resultMap id="BaseResultMap" type="com.easybug.model.TokenBlackList">
+    <result column="ID" jdbcType="INTEGER" property="id" />
+    <result column="TOKEN" jdbcType="VARCHAR" property="token" />
+    <result column="EXPIRED_TIME" jdbcType="TIMESTAMP" property="expiredTime" />
+  </resultMap>
+  <insert id="insert" parameterType="TokenBlackList" useGeneratedKeys="true" keyProperty="id">
+    insert into token_black_list (ID, TOKEN, EXPIRED_TIME
+      )
+    values (#{id,jdbcType=INTEGER}, #{token,jdbcType=VARCHAR}, #{expiredTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <select id="getList" resultType="TokenBlackList">
+     select ID,TOKEN,EXPIRED_TIME from token_black_list
+  </select>
+</mapper>

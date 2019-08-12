@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easybug.dao.StandardCodeTypeDao">
+  <resultMap id="BaseResultMap" type="com.easybug.model.StandardCodeType">
+    <result column="ID" jdbcType="INTEGER" property="id" />
+    <result column="P_ID" jdbcType="INTEGER" property="pId" />
+    <result column="CODE_TYPE" jdbcType="VARCHAR" property="codeType" />
+    <result column="CODE_TYPE_NAME" jdbcType="VARCHAR" property="codeTypeName" />
+    <result column="SN" jdbcType="INTEGER" property="sn" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <insert id="insert" parameterType="com.easybug.model.StandardCodeType">
+    insert into standard_code_type (ID, P_ID, CODE_TYPE, 
+      CODE_TYPE_NAME, SN, REMARK
+      )
+    values (#{id,jdbcType=INTEGER}, #{pId,jdbcType=INTEGER}, #{codeType,jdbcType=VARCHAR}, 
+      #{codeTypeName,jdbcType=VARCHAR}, #{sn,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.easybug.model.StandardCodeType">
+    insert into standard_code_type
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="pId != null">
+        P_ID,
+      </if>
+      <if test="codeType != null">
+        CODE_TYPE,
+      </if>
+      <if test="codeTypeName != null">
+        CODE_TYPE_NAME,
+      </if>
+      <if test="sn != null">
+        SN,
+      </if>
+      <if test="remark != null">
+        REMARK,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="pId != null">
+        #{pId,jdbcType=INTEGER},
+      </if>
+      <if test="codeType != null">
+        #{codeType,jdbcType=VARCHAR},
+      </if>
+      <if test="codeTypeName != null">
+        #{codeTypeName,jdbcType=VARCHAR},
+      </if>
+      <if test="sn != null">
+        #{sn,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>
